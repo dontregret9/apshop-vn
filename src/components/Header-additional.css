@@ -1,0 +1,43 @@
+#header-additional p{
+    color: black;
+}
+#header-additional-dropdown
+{
+    display: flex;
+    align-items: center;
+}
+#header-additional-dropdown>p
+{
+    font-size: .8vw;
+}
+#header-additional-dropdown>img
+{
+    max-width: 1vw;
+    max-height: 1vw;
+}
+.dropdown-menu a
+{
+    font-size: 1vw;
+}
+.dropdown-menu a img
+{
+    margin-right: 1vw;
+    max-width: 2vw;
+    max-height: 2vw;
+}
+.dropdown-menu a:hover
+{
+    color: rgb(22,220,21);
+}
+.dropdown-item
+{
+    display: flex;
+    align-items: center;
+}
+.dropdown-item>svg
+{
+    margin-right: 1vw;
+    justify-self: end;
+    font-size: 1vw;
+    color: black;
+}

@@ -1,0 +1,14 @@
+#footer
+{
+    background-color: rgb(0,0,0);
+}
+#footer p
+{
+    font-size: .7vw;
+    color: white;
+}
+#footer-info
+{
+    display: flex;
+    flex-direction: row;
+}
