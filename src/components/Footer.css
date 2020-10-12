@@ -2,13 +2,104 @@
 {
     background-color: rgb(0,0,0);
 }
-#footer p
+#footer-info
 {
-    font-size: .7vw;
+    justify-content: space-between;
+
+}
+#footer ul li a
+{
+    font-size: 12px;
     color: white;
+
+    text-decoration: none;
 }
 #footer-info
 {
     display: flex;
     flex-direction: row;
+}
+
+#footer ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#footer ul li
+{
+    margin: 0;
+}
+
+#social-network
+{
+    display: flex;
+}
+
+#social-network a
+{
+    margin: 0 3px;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+#social-network a img
+{
+    max-width: 1.5vw;
+    height: auto;
+}
+#p-name
+{
+    font-size: 1.1vw;
+    margin: 0;
+}
+#p-address
+{
+    font-size: .7vw;
+    margin: 2px 0;
+}
+#p-time
+{
+    font-size: .7vw;
+    color: rgb(22,201,21);
+    margin-left: 0;
+}
+#footer h6
+{
+    margin: 0;
+    color: white;
+}
+#footer-bottom
+{
+    justify-content: space-between;
+}
+#payment a img
+{
+    max-height: 2.2vw;
+}
+#certificate ul li a img
+{
+    max-height: 3vw;
+}
+#email-group input
+{
+    padding: 6px;
+    font-size: 13px;
+    width: 100%;
+}
+#email-group input:focus, #email-group button:focus
+{
+    outline: none;
+}
+#email-group button
+{
+    background-color: rgb(125, 235, 0);
+    font-size: 15px;
+    border: none;
+}
+#footer>p
+{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 10px;
+    color: wheat;
 }
