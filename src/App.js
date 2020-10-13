@@ -4,13 +4,22 @@ import './App.css';
 import NavigationBar from './components/Header';
 import Footer from './components/Footer';
 import Header_additional from './components/Header-additional';
+import Product from './components/Product';
+import ProductContainer from './components/ProductContainer';
 
 function App() {
   return (
-    <div >
-      <NavigationBar />
-      <Header_additional/>
-      <Footer />
+    <div id="home-page">
+      <div id="navbar-box">
+        <NavigationBar />
+      </div>
+
+      <Header_additional />
+      <ProductContainer />
+
+      <div id="footer-box">
+        <Footer />
+      </div>
     </div>
 
   );

@@ -1,0 +1,58 @@
+#product
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    max-width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(158, 149, 149);
+}
+
+#product a
+{
+    text-decoration: none;
+}
+#product a img
+{
+    margin: auto;
+    max-width: 230px;
+}
+#product-img
+{
+    margin-bottom: 10px;
+}
+
+#old-price
+{
+    font-size: 17px;
+    text-decoration: line-through;
+    color: rgb(78, 71, 71);
+}
+#new-price
+{
+    font-size: 17px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+#product-name
+{
+    height: 70px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+#product-name:hover
+{
+    color: rgb(21,220,22);
+}
+#review-link svg
+{
+    color: orange;
+    font-size: 17px;
+}
+#review-link span
+{
+    font-size: 15px;
+}
