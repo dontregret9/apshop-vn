@@ -1,0 +1,41 @@
+#screen-container-box
+{
+    box-sizing: border-box;
+    margin: auto;
+    width: 1300px;
+}
+
+#screen-container-bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 10px 0;
+    padding: 0 5px;
+
+    border-radius: 10px;
+}
+
+#screen-container-bar span
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#screen-container-bar a
+{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+#screen-container-bar a svg
+{
+    font-size: 12px;
+    color: black;
+}
+#screen-container
+{
+    display: flex;
+}
+    

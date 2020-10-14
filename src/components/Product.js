@@ -3,9 +3,9 @@ import './Product.css';
 
 function Product(props) {
     return (
-        <div id="product">
-            <a id="product-img" href={props.link}><img src={props.img_link} /></a>
-            <a id="product-name" href={props.link}>{props.product_name}</a>
+        <div className="product">
+            <a className="product-img" href={props.link}><img src={props.img_link} /></a>
+            <a className="product-name" href={props.link}>{props.product_name}</a>
             <div id="price">
                 <span id="new-price">{props.new_price}₫</span>
                 <span id="old-price">{props.old_price}₫</span>

@@ -5,7 +5,10 @@ import NavigationBar from './components/Header';
 import Footer from './components/Footer';
 import Header_additional from './components/Header-additional';
 import Product from './components/Product';
-import ProductContainer from './components/ProductContainer';
+import ProductContainer from './components/DesktopContainer';
+import ScreenContainer from './components/ScreenContainer';
+import CameraContainer from './components/CameraContainer';
+import StreamContainer from './components/StreamContainer';
 
 function App() {
   return (
@@ -16,7 +19,9 @@ function App() {
 
       <Header_additional />
       <ProductContainer />
-
+      <ScreenContainer/>  
+      <CameraContainer/>
+      <StreamContainer/>
       <div id="footer-box">
         <Footer />
       </div>

@@ -1,11 +1,11 @@
-#product-container-box
+#desktop-container-box
 {
     box-sizing: border-box;
     margin: auto;
     width: 1300px;
 }
 
-#container-bar
+#desktop-container-bar
 {
     display: flex;
     justify-content: space-between;
@@ -14,29 +14,29 @@
     margin: 10px 0;
     padding: 0 5px;
 
-    border-radius: 10px;
+    border-radius: 10px;        
     background-color: rgb(33, 161, 33);
 }
 
-#container-bar span
+#desktop-container-bar span
 {
-    font-size: 17px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
 }
 
-#container-bar a
+#desktop-container-bar a
 {
     font-size: 13px;
     color: white;
     text-decoration: none;
 }
-#container-bar a svg
+#desktop-container-bar a svg
 {
     font-size: 12px;
     color: white;
 }
-#product-container
+#desktop-container
 {
     display: flex;
 }

@@ -1,12 +1,12 @@
 import React from 'react';
-import './ProductContainer.css';
+import './DesktopContainer.css';
 
 import Product from './Product.js';
 
-function ProductContainer() {
+function DesktopContainer() {
     return (
-        <div id="product-container-box">
-            <div id="container-bar">
+        <div id="desktop-container-box">
+            <div id="desktop-container-bar">
                 <div>
                     <img src="https://theme.hstatic.net/1000129940/1000623473/14/icon_deal.png?v=130" />
                     <span>TOP MÁY TÍNH BÁN CHẠY THÁNG 10</span>
@@ -17,7 +17,7 @@ function ProductContainer() {
                 </svg></a>
             </div>
 
-            <div id="product-container">
+            <div id="desktop-container">
                 <Product link="https://apshop.vn/products/aps-gtx-1650-athlon-3000g-asus-gaming"
                     img_link="https://product.hstatic.net/1000129940/product/aps-gtx-1650-athlon-3000g-asus-gaming_b1d1b7db8f5e4a9ab5fe4c6af08256e0_medium.jpg"
                     product_name="APS GTX 1650 – ATHLON 3000G ASUS GAMING" review_link="https://apshop.vn/products/aps-gtx-1650-athlon-3000g-asus-gaming#doke_product_reviews"
@@ -42,4 +42,4 @@ function ProductContainer() {
         </div>
     )
 }
-export default ProductContainer;
+export default DesktopContainer;

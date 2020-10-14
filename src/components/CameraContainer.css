@@ -1,0 +1,53 @@
+#camera-container-box
+{
+    box-sizing: border-box;
+    margin: auto;
+    width: 1300px;
+}
+
+#camera-container-bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 10px 0;
+    padding: 0 5px;
+
+    border-radius: 10px;
+}
+
+#camera-container-bar span
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#camera-container-bar a
+{
+    font-size: 13px;
+    text-decoration: none;
+}
+#camera-container-bar a svg
+{
+    font-size: 12px;
+    color: black;
+}
+.camera-option a
+{
+    margin-left: 20px;
+    color: black;
+}
+#camera-container
+{
+    display: flex;
+    flex-direction: column;
+}
+#line-1, #line-2
+{
+    display: flex;
+}
+#camera-img
+{
+    margin: 10px;
+}

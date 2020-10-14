@@ -1,0 +1,53 @@
+#stream-container-box
+{
+    box-sizing: border-box;
+    margin: auto;
+    width: 1300px;
+}
+
+#stream-container-bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 10px 0;
+    padding: 0 5px;
+
+    border-radius: 10px;
+}
+
+#stream-container-bar span
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#stream-container-bar a
+{
+    font-size: 13px;
+    text-decoration: none;
+}
+#camera-container-bar a svg
+{
+    font-size: 12px;
+    color: black;
+}
+.stream-option a
+{
+    margin-left: 20px;
+    color: black;
+}
+#stream-container
+{
+    display: flex;
+    flex-direction: row;
+}
+#stream-container>a
+{
+    margin-right: 50px;
+}
+#line-1, #line-2
+{
+    display: flex;
+}
