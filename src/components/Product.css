@@ -1,4 +1,4 @@
-.product
+.product-border
 {
     display: flex;
     flex-direction: column;
@@ -7,6 +7,14 @@
     width: 250px;
     border-radius: 10px;
     border: 1px solid rgb(158, 149, 149);
+}
+.product
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    width: 250px;
 }
 
 .product a

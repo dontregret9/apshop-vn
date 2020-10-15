@@ -9,6 +9,7 @@ import ProductContainer from './components/DesktopContainer';
 import ScreenContainer from './components/ScreenContainer';
 import CameraContainer from './components/CameraContainer';
 import StreamContainer from './components/StreamContainer';
+import NetworkContainer from './components/NetworkContainer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <ScreenContainer/>  
       <CameraContainer/>
       <StreamContainer/>
+      <NetworkContainer/>
       <div id="footer-box">
         <Footer />
       </div>

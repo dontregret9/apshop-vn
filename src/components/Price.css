@@ -1,0 +1,12 @@
+#old-price
+{
+    font-size: 17px;
+    text-decoration: line-through;
+    color: rgb(78, 71, 71);
+}
+#new-price
+{
+    font-size: 17px;
+    margin-right: 10px;
+    font-weight: bold;
+}

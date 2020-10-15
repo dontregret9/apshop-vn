@@ -34,7 +34,7 @@ function CameraContainer() {
                     <Product link="https://apshop.vn/products/bo-gia-gan-logitech-rally-len-tuong"
                         img_link="https://product.hstatic.net/1000129940/product/logitech-rally-mounting-kit-3_99531a312d354597bb9c12373a2d8c13_medium.jpg"
                         product_name="Bộ Giá Gắn Logitech Rally Lên Tường" review_link="https://apshop.vn/products/bo-gia-gan-logitech-rally-len-tuong#doke_product_reviews"
-                        old_price="" new_price="6,900,000" />
+                        old_price={0} new_price="6,900,000" />
                 </div>
 
                 <div id="line-2">

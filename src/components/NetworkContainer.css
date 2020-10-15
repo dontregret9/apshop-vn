@@ -1,4 +1,4 @@
-#desktop-container-box
+#network-container-box
 {
     box-sizing: border-box;
     margin: auto;
@@ -6,7 +6,7 @@
     margin-bottom: 10px;
 }
 
-#desktop-container-bar
+#network-container-bar
 {
     display: flex;
     justify-content: space-between;
@@ -14,30 +14,28 @@
 
     margin: 10px 0;
     padding: 0 5px;
-
-    border-radius: 10px;        
-    background-color: rgb(33, 161, 33);
 }
 
-#desktop-container-bar span
+#network-container-bar span
 {
     font-size: 20px;
     font-weight: bold;
-    color: white;
 }
 
-#desktop-container-bar a
+#network-container-bar a
 {
+    margin-left: 20px;
     font-size: 13px;
-    color: white;
     text-decoration: none;
+
+    color: black;
 }
-#desktop-container-bar a svg
+#network-container-bar a svg
 {
     font-size: 12px;
-    color: white;
+    color: black;
 }
-#desktop-container
+#network-container
 {
     display: flex;
 }
