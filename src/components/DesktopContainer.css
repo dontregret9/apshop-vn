@@ -41,3 +41,60 @@
 {
     display: flex;
 }
+
+
+/* react slick slider*/
+
+.slick-arrow
+{
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    border: none;
+
+    height: 25px;
+    width: 25px;
+    transition: .5s;
+
+    display: flex;
+
+    position: absolute;
+    z-index: 1;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slick-arrow svg
+{
+    color: rgb(14, 226, 14);
+    margin: auto;
+}
+.slick-arrow:hover
+{
+    background-color: rgb(23, 228, 23);
+}
+.slick-arrow:focus
+{
+    outline: none;
+}
+.slick-arrow:hover svg
+{
+    color: black;
+}
+.slick-prev
+{
+    left: 8px;
+}
+.slick-next
+{
+    right: 8px;
+}
+.slick-arrow>svg
+{    
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    z-index: 2;
+    height: 15px;
+    width: 15px;
+}

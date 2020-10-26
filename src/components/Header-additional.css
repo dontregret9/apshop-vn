@@ -1,5 +1,17 @@
+#header-additional
+{
+    box-sizing: border-box;
+
+    margin: auto;
+    width: 1300px;
+}
 #header-additional p{
     color: black;
+}
+#header-addition-top
+{
+    display: flex;
+    flex-direction: row;
 }
 #header-additional-dropdown
 {
@@ -40,4 +52,17 @@
     justify-self: end;
     font-size: 1vw;
     color: black;
+}
+#header-additional-right
+{
+    position: relative;
+    z-index: 3;
+    left: 400px;
+    width: 900px;
+    height: 540px;
+}
+#header-additional-right img
+{
+    width: 900px;
+    height: 470;
 }

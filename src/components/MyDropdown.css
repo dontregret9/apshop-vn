@@ -1,0 +1,135 @@
+#dropdown
+{
+    margin: 20px;
+    width: fit-content  ;
+    height: fit-content;
+}
+#dropdown a
+{
+    text-decoration: none;
+    color: black;
+}
+#dropdown p
+{
+    color: black;    
+}
+#dropdown-btn
+{
+    display: flex;
+    flex-direction: row;
+
+    border: none;
+    background-color: transparent;
+}
+#dropdown-btn:focus
+{
+    outline: none;
+}
+#dropdown-btn img
+{
+    width: 20px;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    margin-right: 10px;
+}
+#dropdown-btn p
+{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#dropdown-content
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 20px;
+
+    width: 262px;
+}
+.dropdown-content-item
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+
+    font-weight: bold;  
+    font-size: 15px;
+    width: 260px;
+
+    transition: .5s;
+}
+.dropdown-content-item:hover .dropdown-content-item-left>span
+{
+}
+#item-1 img
+{
+    height: 35px;
+    width: 35px;
+}
+.dropdown-content-item img
+{
+    margin-right: 15px;
+}
+
+#dropdown-content-2nd-box
+{
+    padding-left: 15px;
+}
+#dropdown-content-2nd
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dropdown-content-item-2nd
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+
+    font-weight: bold;
+    font-size: 15px;
+    transition: .5s;
+}
+.dropdown-content-item-2nd>span
+{
+    padding: 5px 10px;
+}
+.dropdown-content-item-2nd:hover
+{
+    background-color: rgb(192, 184, 184);
+}
+
+/*
+---------------------------------- level 3 -------------------------------
+*/
+#dropdown-content-3rd-box
+{
+    padding-left: 15px;
+}
+.dropdown-content-3rd
+{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 15px;
+}
+.dropdown-content-item-3rd
+{
+    padding: 5px 10px;
+    width: 300px;
+}
+.dropdown-content-item-3rd:hover
+{
+    background-color: rgb(185, 178, 178);
+}

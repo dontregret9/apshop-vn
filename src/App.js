@@ -5,21 +5,30 @@ import NavigationBar from './components/Header';
 import Footer from './components/Footer';
 import Header_additional from './components/Header-additional';
 import Product from './components/Product';
-import ProductContainer from './components/DesktopContainer';
+import DesktopContainer from './components/DesktopContainer';
 import ScreenContainer from './components/ScreenContainer';
 import CameraContainer from './components/CameraContainer';
 import StreamContainer from './components/StreamContainer';
 import NetworkContainer from './components/NetworkContainer';
+import Dropdown from './components/MyDropdown';
 
 function App() {
   return (
     <div id="home-page">
-      <div id="navbar-box">
+      <Dropdown/>
+    </div>    
+  );
+}
+
+export default App;
+
+/*
+<div id="navbar-box">
         <NavigationBar />
       </div>
 
       <Header_additional />
-      <ProductContainer />
+      <DesktopContainer />
       <ScreenContainer/>  
       <CameraContainer/>
       <StreamContainer/>
@@ -27,9 +36,4 @@ function App() {
       <div id="footer-box">
         <Footer />
       </div>
-    </div>
-
-  );
-}
-
-export default App;
+*/

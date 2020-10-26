@@ -2,9 +2,11 @@
 {
     display: flex;
     flex-direction: column;
+
     padding: 5px;
     margin: 5px;
     width: 250px;
+    
     border-radius: 10px;
     border: 1px solid rgb(158, 149, 149);
 }
@@ -17,9 +19,9 @@
     width: 250px;
 }
 
-.product a
+.product a, .product-border a
 {
-    text-decoration: none;
+    text-decoration: none;  
 }
 .product a img
 {
@@ -50,7 +52,6 @@
 {
     height: 70px;
     font-size: 15px;
-    text-decoration: none;
     color: black;
     transition: .5s;
 }
