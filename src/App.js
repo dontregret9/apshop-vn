@@ -15,25 +15,21 @@ import Dropdown from './components/MyDropdown';
 function App() {
   return (
     <div id="home-page">
-      <Dropdown/>
-    </div>    
-  );
-}
-
-export default App;
-
-/*
-<div id="navbar-box">
+      <div id="navbar-box">
         <NavigationBar />
       </div>
 
       <Header_additional />
       <DesktopContainer />
-      <ScreenContainer/>  
-      <CameraContainer/>
-      <StreamContainer/>
-      <NetworkContainer/>
+      <ScreenContainer />
+      <CameraContainer />
+      <StreamContainer />
+      <NetworkContainer />
       <div id="footer-box">
         <Footer />
       </div>
-*/
+    </div>
+  );
+}
+
+export default App;

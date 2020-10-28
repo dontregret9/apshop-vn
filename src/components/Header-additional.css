@@ -1,15 +1,18 @@
 #header-additional
 {
+    position: relative;
     box-sizing: border-box;
 
     margin: auto;
     width: 1300px;
 }
-#header-additional p{
+#header-additional p
+{
     color: black;
 }
 #header-addition-top
 {
+    position: relative;
     display: flex;
     flex-direction: row;
 }
@@ -55,14 +58,14 @@
 }
 #header-additional-right
 {
-    position: relative;
-    z-index: 3;
-    left: 400px;
-    width: 900px;
-    height: 540px;
+    position: absolute;
+    z-index: 1;
+    left: 280px;
+    width: 1020px;
+    height: 560px;
 }
 #header-additional-right img
 {
-    width: 900px;
-    height: 470;
+    width: 1020px;
+    height: 560px;
 }
