@@ -3,23 +3,6 @@
     margin: auto;
     width: 1300px;
 }
-#footer-info
-{
-    justify-content: space-between;
-
-}
-#footer ul li a
-{
-    font-size: 12px;
-    color: white;
-
-    text-decoration: none;
-}
-#footer-info
-{
-    display: flex;
-    flex-direction: row;
-}
 
 #footer ul
 {
@@ -30,6 +13,61 @@
 #footer ul li
 {
     margin: 0;
+}
+#footer>p
+{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: rgb(119, 115, 107);
+
+}
+
+#footer ul li a
+{
+    font-size: 12px;
+    color: white;
+
+    text-decoration: none;
+}
+
+#footer h6
+{
+    margin: 0;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+
+#footer-info
+{
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 50px;
+
+}
+#footer-left, #footer-center, #footer-right
+{
+    flex-basis: 33%;
+    flex-grow: 1;
+}
+.mapouter
+{
+    position:relative;
+    text-align:right;
+    height:300px;
+    width:400px;
+}
+.gmap_canvas 
+{   
+    overflow:hidden;
+    background:none!important;
+    height:250px;
+    width:400px;
 }
 
 #social-network
@@ -64,15 +102,20 @@
     color: rgb(22,201,21);
     margin-left: 0;
 }
-#footer h6
-{
-    margin: 0;
-    color: white;
-}
+
+
+
 #footer-bottom
 {
-    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
 }
+#payment, #certificate, #email-register
+{
+    flex-basis: 33.3333%;
+    flex-grow: 1;
+}
+
 #payment a img
 {
     max-height: 2.2vw;
@@ -81,11 +124,15 @@
 {
     max-height: 3vw;
 }
+
+
 #email-group input
 {
     padding: 6px;
     font-size: 13px;
-    width: 100%;
+    width: 350px;
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
 }
 #email-group input:focus, #email-group button:focus
 {
@@ -95,15 +142,5 @@
 {
     background-color: rgb(125, 235, 0);
     font-size: 15px;
-    border: none;
-}
-#footer>p
-{
-    text-align: center;
-    margin-top: 60px;
-    padding-bottom: 20px;
-    margin-bottom: 0;
-    font-size: 15px;
-    color: rgb(119, 115, 107);
-
+    border: 1px solid rgb(255, 255, 255);
 }

@@ -3556,7 +3556,7 @@ class Dropdown extends Component {
             slidesToScroll: 1,
             swipeToSlide: true,
             autoplay: true,
-            autoplaySpeed: 4000,
+            autoplaySpeed: 2000,
             prevArrow: <br />,
             nextArrow: <br />
         }

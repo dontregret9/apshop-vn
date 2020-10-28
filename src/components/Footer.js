@@ -5,8 +5,9 @@ function Footer(props) {
     return (
         <div id="footer">
             <div id="footer-info">
+
                 <div id="footer-left">
-                    <p id="p-name">AP SHOP</p>
+                    <h6 id="p-name">AP SHOP</h6>
                     <p id="p-address">Trụ sở: 370 Đường 3 Tháng 2, P.12, Q.10, TP. Hồ Chí Minh</p>
                     <p id="p-time">THỜI GIAN LÀM VIỆC: TỪ 8:30 - 20:30 (TỬ THỨ 2 - CHỦ NHẬT)</p>
                     <ul>
@@ -40,10 +41,17 @@ function Footer(props) {
                 </div>
                 <div id="footer-right">
                     <h6>BẢN ĐỒ</h6>
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="500" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=370%20%C4%90%C6%B0%E1%BB%9Dng%203%20Th%C3%A1ng%202%2C%20Ph%C6%B0%E1%BB%9Dng%2012%2C%20Qu%E1%BA%ADn%2010%2C%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
 
+                    </div>
                 </div>
+            
             </div>
-            <div id="footer-bottom" className="d-flex">
+            
+            <div id="footer-bottom">
                 <div id="payment">
                     <h6>THANH TOÁN</h6>
                     <a target="_blank" href="https://apshop.vn/pages/thanh-toan"><img src="https://theme.hstatic.net/1000129940/1000623473/14/banner_payment_1.png?v=94" /></a>
@@ -51,18 +59,19 @@ function Footer(props) {
                 <div id="certificate">
                     <h6>CHỨNG NHẬN</h6>
                     <ul className="d-flex">
-                        <li><a target="_blank" href="http://online.gov.vn/Home/WebDetails/7730"><img src="https://theme.hstatic.net/1000129940/1000623473/14/banner_payment_2.png?v=94"/></a></li>
-                        <li><a target="_blank" href="https://apshop.vn/"><img src="https://theme.hstatic.net/1000129940/1000623473/14/banner_payment_3.png?v=94"/></a></li>
+                        <li><a target="_blank" href="http://online.gov.vn/Home/WebDetails/7730"><img src="https://theme.hstatic.net/1000129940/1000623473/14/banner_payment_2.png?v=94" /></a></li>
+                        <li><a target="_blank" href="https://apshop.vn/"><img src="https://theme.hstatic.net/1000129940/1000623473/14/banner_payment_3.png?v=94" /></a></li>
                     </ul>
                 </div>
-                <div id="register">
+                <div id="email-register">
                     <h6>ĐĂNG KÍ NHẬN BẢN TIN</h6>
                     <div className="d-flex" id="email-group">
-                        <input placeholder="Email của bạn"/>
+                        <input placeholder="Email của bạn" />
                         <button>GỬI</button>
                     </div>
                 </div>
             </div>
+
             <p>© Bản quyền thuộc CÔNG TY TNHH MTV TIN HỌC AN PHÁT - Email: lienhe@apshop.vn</p>
         </div>
     )
