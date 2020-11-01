@@ -1,0 +1,17 @@
+.advert_left
+{
+    position: fixed;
+    left: 8%;
+    top: 13%;
+    width: 150px;
+    height: 450px;
+}
+.advert_right
+{
+    position: fixed;
+    right: 7%;
+    top: 13%;
+    width: 150px;
+    height: 450px;
+    z-index: 1000;
+}
