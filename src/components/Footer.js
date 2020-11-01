@@ -3,7 +3,8 @@ import './Footer.css';
 
 function Footer(props) {
     return (
-        <div id="footer">
+        <div id="footer-box">
+            <div id="footer">
             <div id="footer-info">
 
                 <div id="footer-left">
@@ -74,7 +75,8 @@ function Footer(props) {
 
             <p>© Bản quyền thuộc CÔNG TY TNHH MTV TIN HỌC AN PHÁT - Email: lienhe@apshop.vn</p>
         </div>
-    )
+    
+        </div>)
 }
 
 export default Footer;

@@ -4,7 +4,7 @@ import search_btn from '../images/search-btn.png';
 
 function NavigationBar(props) {
     return (
-        <div>
+        <div id="navbar-box">
             <nav id="NavigationBar" class="navbar navbar-dark">
                 <a href="https://apshop.vn/"><img src="https://theme.hstatic.net/1000129940/1000623473/14/logo.png?v=94" /></a>
 
